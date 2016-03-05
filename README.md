@@ -67,7 +67,6 @@ Below are the plugin defaults.
         complete: function () {
         }
     };
-
 ```
 
 ### Browser Support
@@ -82,10 +81,10 @@ Below are the plugin defaults.
 
 ### Live Demo 
 A live, interactive demo can be found here:
-##### [www.clarketravis.com/rotate](http://www.clarketravis.com/rotate/#live-demo)
+##### [www.clarketravis.com](http://www.clarketravis.com/rotate)
 
 ### License
-[TableExport.js](http://www.clarketravis.com/rotate) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
+[Rotate.js](http://www.clarketravis.com) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
 
 ### Credits
 
