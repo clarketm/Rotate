@@ -35,20 +35,20 @@ To use the export plugin, just call:
 $("table").rotate();
 ```
 
-You can also specify angles of rotation (in degrees).
+You can also specify an angle of rotation (in degrees).
 
 ```js
 $("table").rotate(720);
 ```
 
-Additional properties can be passed in to customize the behavior and timing of the animation.
+Additional properties can be passed in to customize the timing and overall behavior of the animation.
 
 ```js
 /* Defaults */
-$("table").rotate(360, {                // animation rotation (degrees)
-    duration: 1000,                     // [Number]animation duration
+$("img").rotate(360, {                  // [Number] animation rotation (degrees)
+    duration: 1000,                     // [Number] animation duration
     easing: 'swing',                    // [String] easing function
-    complete: function () { }           // [Function], completed callback
+    complete: function () { }           // [Function] completed callback
 });
 ```
 
@@ -57,10 +57,10 @@ $("table").rotate(360, {                // animation rotation (degrees)
 Below are the plugin defaults.
 
 ```js
-/* default filename if "id" attribute is set and undefined */
+/* default animation rotation (degrees) */
  $.fn.rotate.degrees = 360;
 
-/* default class to style buttons when not using bootstrap  */
+/* default duration, easing, and completed callback  */
     $.fn.rotate.defaults = {
         duration: 1000,
         easing: 'swing',
@@ -72,21 +72,20 @@ Below are the plugin defaults.
 
 ### Browser Support
 
-|  | Chrome | Firefox | IE *  | Opera | Safari |
-| :------: | :------: | :-------: | :---: | :-----: | :------: |
-| __Android__ * |    &#10003;   |    &#10003;    | - |   &#10003;   |  -   |
-| __iOS__ * |    &#10003;   |  -    | - |   -   |   &#10003;    |
-| **Mac OSX**|    &#10003;   |    &#10003;    | - |   &#10003;  |   &#10003;    |
-| **Windows** |    &#10003;   |    &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
+|  | Chrome   | Firefox  | IE *  | Opera | Safari |
+| :------:    | :------: | :-------: | :---: | :-----: | :------: |
+| __Android__ | &#10003; | &#10003; |  &#10003; |   &#10003;   |   &#10003;   |
+| __iOS__     | &#10003; | &#10003;    |  &#10003; |    &#10003;   |   &#10003;    |
+| **Mac OSX** | &#10003; | &#10003;    |  &#10003; |   &#10003;  |   &#10003;    |
+| **Windows** | &#10003; | &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
 
-*requires third-party dependencies
 
 ### Live Demo 
 A live, interactive demo can be found here:
-##### [www.clarketravis.com/tableexport](http://www.clarketravis.com/tableexport/#live-demo)
+##### [www.clarketravis.com/rotate](http://www.clarketravis.com/rotate/#live-demo)
 
 ### License
-[TableExport.js](http://www.clarketravis.com/tableexport) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
+[TableExport.js](http://www.clarketravis.com/rotate) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
 
 ### Credits
 
