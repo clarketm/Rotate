@@ -25,8 +25,7 @@
     $.fn.rotate.defaults = {
         duration: 1000,
         easing: 'swing',
-        complete: function () {
-        }
+        complete: function () { }
     };
 
 

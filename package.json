@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "node_modules",
     "bower_components",
     "test"
-  ]
+  ],
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
