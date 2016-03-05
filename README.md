@@ -69,6 +69,7 @@ Below are the plugin defaults.
     };
 ```
 
+
 ### Browser Support
 
 |  | Chrome   | Firefox  | IE *  | Opera | Safari |
