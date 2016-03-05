@@ -27,6 +27,12 @@
   "author": "clarketm <travis.m.clarke@gmail.com>",
   "license": "MIT",
   "homepage": "http://www.clarketravis.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
