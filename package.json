@@ -1,7 +1,7 @@
 {
   "name": "rotate.js",
   "version": "1.0.0",
-  "description": "rotate animation plugin",
+  "description": "The simple, easy-to-implement animation plugin to rotate icons, images, and elements.",
   "main": "rotate.js",
   "directories": {
     "test": "test"
