@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/clarketm/Rotate.svg?branch=master)](https://travis-ci.org/clarketm/Rotate)
 # Rotate
 The simple, easy-to-implement animation plugin to rotate icons, images, and elements.
 
