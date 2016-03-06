@@ -13,7 +13,7 @@
 
         return this.each(function (i, e) {
             settings.step = function (now) {
-                $.style(e, 'transform', 'rotate(' + now + 'deg)');
+                $(e).css('transform', 'rotate(' + now + 'deg)');
             };
             $({deg: 0}).animate({deg: degrees}, settings);
         });
