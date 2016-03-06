@@ -32,20 +32,20 @@ $ bower install rotate.js
 To use the export plugin, just call:
 
 ```js
-$("table").rotate();
+$("#my-selector").rotate();
 ```
 
 You can also specify an angle of rotation (in degrees).
 
 ```js
-$("table").rotate(720);
+$("#my-selector").rotate(720);
 ```
 
 Additional properties can be passed in to customize the timing and overall behavior of the animation.
 
 ```js
 /* Defaults */
-$("img").rotate(360, {                  // [Number] animation rotation (degrees)
+$("#my-selector").rotate(360, {         // [Number] animation rotation (degrees)
     duration: 1000,                     // [Number] animation duration
     easing: 'swing',                    // [String] easing function
     complete: function () { }           // [Function] completed callback
@@ -72,12 +72,12 @@ Below are the plugin defaults.
 
 ### Browser Support
 
-|  | Chrome   | Firefox  | IE *  | Opera | Safari |
-| :------:    | :------: | :-------: | :---: | :-----: | :------: |
-| __Android__ | &#10003; | &#10003; |  &#10003; |   &#10003;   |   &#10003;   |
-| __iOS__     | &#10003; | &#10003;    |  &#10003; |    &#10003;   |   &#10003;    |
-| **Mac OSX** | &#10003; | &#10003;    |  &#10003; |   &#10003;  |   &#10003;    |
-| **Windows** | &#10003; | &#10003;    | &#10003; |   &#10003;   |   &#10003;    |
+|             |  Chrome  | Firefox  |    IE    |   Opera  |  Safari  |
+| :---------: | :------: | :------: | :------: | :-----:  | :------: |
+| __Android__ | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| __iOS__     | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| **Mac OSX** | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| **Windows** | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 
 ### Live Demo 
