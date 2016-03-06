@@ -14,7 +14,7 @@ gulp.task('js', ['clean'], function () {
 
 });
 gulp.task('clean', function () {
-    return del(['dist']);
+    return del(['dist/js']);
 });
 
 gulp.task('build', ['js']);

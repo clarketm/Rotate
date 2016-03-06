@@ -5,17 +5,24 @@
  */
 
 ;(function (window, $, undefined) {
+    "use strict";
 
     $.fn.rotate = function (degrees, options) {
 
-        var settings = $.extend({}, $.fn.rotate.defaults, options);
+        var settings = $.extend({}, $.fn.rotate.defaults, options),
+            endDeg = 0;
+
         degrees = degrees || $.fn.rotate.degrees;
 
-        return this.each(function (i, e) {
+        return this.each(function (i, el) {
+            if ($(el).is(':animated')) { return;}
+
+            endDeg = (el.deg || endDeg) + degrees;
             settings.step = function (now) {
-                $(e).css('transform', 'rotate(' + now + 'deg)');
+                $(el).css('transform', 'rotate(' + now + 'deg)');
             };
-            $({deg: 0}).animate({deg: degrees}, settings);
+
+            $(el).animate({deg: endDeg}, settings);
         });
 
     };
