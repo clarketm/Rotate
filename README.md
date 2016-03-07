@@ -19,6 +19,12 @@ To use this plugin, include the [jQuery](https://jquery.com) library and the [Ro
 $ bower install rotate.js
 ```
 
+### Install with npm
+
+```shell
+$ npm install rotate-icon
+```
+
 ### Dependencies
 
 ##### Required:

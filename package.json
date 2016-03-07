@@ -1,5 +1,5 @@
 {
-  "name": "rotate.js",
+  "name": "rotate-icon",
   "version": "1.0.0",
   "description": "The simple, easy-to-implement animation plugin to rotate icons, images, and elements.",
   "main": "dist/js/rotate.js",
