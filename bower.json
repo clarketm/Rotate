@@ -1,6 +1,6 @@
 {
   "name": "rotate.js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "authors": [
     "clarketm <travis.m.clarke@gmail.com>"
   ],
@@ -15,13 +15,15 @@
     "duration",
     "degree",
     "degrees",
-    "spin"
+    "spin",
+    "jquery-plugin",
+    "ecosystem:jquery"
   ],
   "dependencies": {
     "jquery": "~1.11.3"
   },
   "license": "MIT",
-  "homepage": "http://www.clarketravis.com",
+  "homepage": "https://www.travismclarke.com",
   "ignore": [
     "**/.*",
     "node_modules",

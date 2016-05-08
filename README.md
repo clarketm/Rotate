@@ -6,7 +6,7 @@ The simple, easy-to-implement animation plugin to rotate icons, images, and elem
 
 ### Download and Setup
 
-To use this plugin, include the [jQuery](https://jquery.com) library and the [Rotate.js](http://www.clarketravis.com/rotate) plugin before the closing `<body>` tag of your HTML document:
+To use this plugin, include the [jQuery](https://jquery.com) library and the [Rotate.js](https://www.travismclarke/rotate) plugin before the closing `<body>` tag of your HTML document:
 
 ```html
 <script src="jquery.js"></script>
@@ -89,10 +89,10 @@ Below are the plugin defaults.
 
 ### Live Demo 
 A live, interactive demo can be found here:
-##### [www.clarketravis.com](http://www.clarketravis.com/rotate)
+##### [www.travismclarke.com](https://www.travismclarke.com/rotate)
 
 ### License
-[Rotate.js](http://www.clarketravis.com) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
+[Rotate.js](https://www.travismclarke.com) is licensed under the terms of the [MIT](http://opensource.org/licenses/mit-license.php) License
 
 ### Credits
 
